@@ -14,8 +14,8 @@ class ControlApp(tk.Tk):
         super().__init__()
 
         self.title("Stewart platform control")
-        self.geometry("1400x1000")
-        self.minsize(1400, 1000)
+        self.geometry("1400x1200")
+        self.minsize(1400, 1200)
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
